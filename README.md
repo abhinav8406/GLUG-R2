@@ -19,5 +19,16 @@ used less readme <br>
 pressed q.
 recieved password. then logout.
 
+
 level 1 - 2 <br>
+instruction was that password is in file named - . <br>
+ - didnot work normally because it is to avail options. <br>
+then i found it's ways used file ./- to get is property. <br>
+then used less ./- <br>
+copied and logout.
+
+level 2 - 3 <br>
+it contained space and - <br>
+thats it was needed <br>
+less ./"./--spaces in this filename--" <br>
 
