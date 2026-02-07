@@ -8,7 +8,7 @@ and bandit0 as password
 level 0 -1 <br>
 used ls to list file - readme
 used file to get is properties it was ascii text.
-used less readme
+used less readme <br>
   Congratulations on your first steps into the bandit game!! <br>
   Please make sure you have read the rules at https://overthewire.org/rules/ <br>
   If you are following a course, workshop, walkthrough or other educational activity,
