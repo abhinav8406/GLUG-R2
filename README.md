@@ -74,3 +74,17 @@ as per instruction, it was file encode with base64. hence used base64 -d data.tx
 <br>
 
  level 11-12 <br>
+ as per instruction and hint we had to rotate letters by 13 and using tr, i guess it is used in password encrypting, hence used this to get password.
+ cat data.txt | tr 'n-za-mN-ZA-M' 'a-zA-Z'
+and done. <br>
+
+level 12-13 <br>
+in this task it was hexdump in extension of text. and i was not a user here so i used tmp directory to make copy there and performed operations. first used xxd -r data.txt > data.bin then using file data.bin got gzip compressed file. hence its extension changed by mv command, then used gunzip. and again used file extension to gets its file type. and so on. until we didn't get a txt file. it took most time. 3 times forgot the path. but was fun.
+<br>
+
+level 13-14 <br>
+from here, network communication type problem started. here as per instructions, we had a key by which we had to join bandit14 by localhost, after so many failure i decied to join bundit14 by my pc using all the things. hence copied the key, then i made a file with key, and as it was a private key login, ssh -i privatekey user@hostname -p port_number was required so, i used ssh -i mykey  bandit14@bandit.labs.overthewire.org -p 2220
+then at distination folder i got its password.<br>
+
+level 14-15 <br>
+
