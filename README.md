@@ -22,7 +22,7 @@ recieved password. then logout.
 
 level 1 - 2 <br>
 instruction was that password is in file named - . <br>
- - didnot work normally because it is to avail options. <br>
+ "-" didnot work normally because it is to avail options. <br>
 then i found it's ways used file ./- to get is property. <br>
 then used less ./- <br>
 copied and logout.
@@ -36,5 +36,11 @@ level 3 - 4 <br>
 it was a hidden file hence easily come out with ls -a. <br>
 
 <br>
+level 4 -5 <br>
+it was based on file type it is. as in linux last extension to file does not provide full guarantee to be of that file. hence we need to check which one is txt file.
+and it has "-" starting file and ./- was required with file to gets its property.
+
+<br>
+level 5-6 <br>
 
 
