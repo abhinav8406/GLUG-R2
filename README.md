@@ -49,5 +49,17 @@ and thats it. it was little confusiong but soon realised it also hidden by dot a
 later i found and made less ./.file2 <br>
 
 level 6-7 <br>
+it has a file with owner and group on server anywhere. thats why i performed search on / directory. 
+used  find -user bandit7 -group bandit6 -size 33c
+and found /var/lib/dpkg/info/bandit7.password which allowed to display and lied in. in that file i got password.
+<br>
+
+level 7-8 <br>
+in this task it was to use grep as it helps finding to specific lines in which word contain.<br>
+cat data.txt | grep millionth
+then got password next to this word. <br>
+<br>
+
+level 8-9 <br>
 
 
