@@ -87,4 +87,4 @@ from here, network communication type problem started. here as per instructions,
 then at distination folder i got its password.<br>
 
 level 14-15 <br>
-
+it this we use nc (netcutter) we can communicate to sever via this. hence "nc localhost 30000" asked for prev password it gave level 14 password.
