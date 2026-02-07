@@ -61,5 +61,8 @@ then got password next to this word. <br>
 <br>
 
 level 8-9 <br>
+in this i was needed to see which one is only once occured hence used sort data.txt |uniq -c
+to sort first then count and show how many each elemetns counts. <br>
 
+level 9-10 <br>
 
