@@ -65,4 +65,12 @@ in this i was needed to see which one is only once occured hence used sort data.
 to sort first then count and show how many each elemetns counts. <br>
 
 level 9-10 <br>
+in this it was required to find unique binary. using strings it was possible as it simplfied and made me analyse to get its password.
+<br>
 
+level 10-11 <br>
+as per instruction, it was file encode with base64. hence used base64 -d data.txt | less
+ to get its password.
+<br>
+
+ level 11-12 <br>
