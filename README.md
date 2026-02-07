@@ -42,5 +42,12 @@ and it has "-" starting file and ./- was required with file to gets its property
 
 <br>
 level 5-6 <br>
+it is a bunch of files in which this file is hidden. tried du -h to find size. <br>
+later tried find . -size 1033c. 
+and got only one option
+and thats it. it was little confusiong but soon realised it also hidden by dot at first.
+later i found and made less ./.file2 <br>
+
+level 6-7 <br>
 
 
